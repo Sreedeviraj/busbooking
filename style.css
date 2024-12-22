@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Regular", sans-serif
+}
+
+
+.nav_{
+    width: 85%;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.logo{
+    justify-content: space-between;
+    /* text-decoration: none; */
+    display: flex;
+    margin: 10px 20px;
+}
+.logo h5{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom right ,rgb(0, 140, 255),rgb(0, 101, 184));
+    -webkit-background-clip: text;
+    color: transparent; 
+
+}
+.link{
+    text-decoration: none;
+    display: inline;
+    color: rgb(29, 29, 29);
+
+}
+.link:hover{
+    color: rgb(0, 140, 255);;
+}
+.navitem{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+#buttoncontent{
+    border-radius: 6px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: 0px;
+    font-size: 15px;
+}
+.hero h2{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(0, 140, 255);
+    margin-top: 60px;
+}
+.hero p{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto Regular", sans-serif;
+
+}
+.search{
+    height: 90px;
+    width: 900px;
+    border: 1px solid rgb(214, 214, 214);
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 35px;
+    border-radius: 8px;
+    display: flex;
+}
+.from{
+    width: 290px;
+    height: 90px;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-right: 1px solid rgb(214, 214, 214);
+    position: relative;
+}
+.fromcontent{
+    margin-left: 60px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20px;
+}
+.date{
+    width: 170px;
+    height: 90px;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-right: 1px solid rgb(214, 214, 214);
+    position: relative;
+}
+.datecontent{
+    margin-left: 40px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20px;
+}
+.search button{
+    background-color: rgb(0, 140, 255);
+    border-radius: 0 8px 8px 0;
+    flex: 1;
+    color: white;
+    font-size: 22px;
+    border: 0;
+}
+.feat{
+    width: 100%;
+    background-color:  rgb(237, 245, 251);
+ 
+    margin-top: 60px;
+    padding: 10px 0px;
+}
+.key-features {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.key-features h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-bottom: 50px;
+
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.feature img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+}
+.app{
+    width: 100%;
+   
+    margin-top: 90px;
+
+}
+.app h2{
+    margin-left: 160px;
+    font-weight: 400;
+    font-size: 28px;
+    color: rgb(51, 51, 51);
+}
+.ques h6{
+    margin-left: 160px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color:rgb(82, 119, 207);
+}
+.ques p{
+    margin-left: 160px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: rgb(223, 228, 233);;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_section {
+    flex: 1;
+    margin: 10px 20px;
+    min-width: 200px;
+}
+
+.footer_section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+}
+
+.footer_section p,
+.footer_section a {
+    font-size: 14px;
+    line-height: 1.8;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.footer_section a:hover {
+    color: #00A4FF;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ddd;
+}
+
+.social-icon:hover {
+    color: #00A4FF;
+}
+.foot{
+    margin-top: 50px;
+}

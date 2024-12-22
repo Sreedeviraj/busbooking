@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,
+wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        @media (max-width: 768px) {
+            .nav_ {
+                width: 85%;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+
+            .logo {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .logo h5 {
+                font-size: 28px;
+            }
+
+            .navitem {
+                margin: 10px 0;
+            }
+
+            .hero h2 {
+                font-size: 24px;
+            }
+
+            .hero p {
+                font-size: 16px;
+                margin: 10px 20px;
+            }
+
+            .search {
+                width: 95%;
+                flex-wrap: wrap;
+                margin: 20px auto;
+                height: auto;
+                border-radius: 6px;
+            }
+
+            .from,
+            .date {
+                width: 100%;
+                border: 0;
+                text-align: center;
+            }
+
+            .search button {
+                width: 100%;
+                border-radius: 0 0 8px 8px;
+            }
+            .feat{
+                height:800px;
+            }
+
+            .features {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .feature {
+                width: 100%;
+            }
+
+            .app h2 {
+                font-size: 22px;
+                margin-left: 10px;
+            }
+
+            .ques h6,
+            .ques p {
+                margin-left: 10px;
+                font-size: 14px;
+            }
+
+            .footer_content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            .logo h5 {
+                font-size: 22px;
+            }
+
+            .navitem {
+                font-size: 14px;
+            }
+
+            .hero h2 {
+                font-size: 20px;
+            }
+
+            .hero p {
+                font-size: 14px;
+            }
+
+            .search {
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+            }
+
+            .fromcontent,
+            .datecontent {
+                margin: 10px auto;
+            }
+            .feat{
+                height: 750px;
+            }
+
+            .features {
+                gap: 10px;
+            }
+
+            .feature h3 {
+                font-size: 18px;
+            }
+
+            .feature p {
+                font-size: 14px;
+            }
+            .app{
+         
+  
+                margin-top: 90px;
+            
+            }
+            .app h2{
+             
+                font-weight: 400;
+                font-size: 28px;
+                color: rgb(51, 51, 51);
+            }
+            .ques h6{
+           
+                font-weight: 400;
+                font-size: 18px;
+                color:rgb(82, 119, 207);
+            }
+            .ques p{
+       
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 14px;
+                color: rgb(51, 51, 51);
+                margin-bottom: 30px;
+            }
+            .cotact{
+                margin-top: px;
+            }
+
+
+            .footer_section h4 {
+                font-size: 16px;
+            }
+
+            .footer_section p,
+            .footer_section a {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <section id="home">
+            <div class="_nav">
+                <nav class="nav_">
+                    <div class="logo">
+                        <h5>Yathra</h5>
+                        <ul>
+                            <li class="navitem"><a class="link" href="#home">Home</a></li>
+                            <li class="navitem"><a class="link" href="#featuresss">Live tracking</a></li>
+                            <li class="navitem"><a class="link" href="#Contact">Contact</a></li>
+                            <button class="navitem" id="buttoncontent">Login</button>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <div class="hero">
+            <h2>Bus Ticket Booking</h2>
+            <p>Your Smart Travel Partner for Kerala’s Private Buses</p>
+        </div>
+        <div class="search">
+            <div class="from">
+                <div class="fromcontent">
+                    <label for="">From</label>
+                    <br>
+                    <input type="text" style="border: 1;">
+                </div>
+            </div>
+            <div class="from">
+                <div class="fromcontent">
+                    <label for="">To</label>
+                    <br>
+                    <input type="text" name="" id="" style="border: 1;">
+                </div>
+            </div>
+            <div class="date">
+                <div class="datecontent">
+                    <label for="">Date</label>
+                    <br>
+                    <input type="date" style="border: 1;">
+                </div>
+            </div>
+            <button>search</button>
+
+
+
+        </div>
+        <section id="featuresss">
+            <div class="feat">
+                <div class="key-features">
+                    <h2>Now, Get More Than Just Bus Tickets with Yathra!</h2>
+                    <div class="features">
+                        <div class="feature">
+                            <img src="./images/electronic-ticket.png" alt="Book Tickets" width="30px" height="30px">
+                            <h3>Book Tickets</h3>
+                            <p>Easily book private bus tickets online from anywhere.</p>
+                        </div>
+                        <div class="feature">
+                            <img src="./images/timer.png" alt="Real-Time Timings" width="30px" height="30px">
+                            <h3>Real-Time Timings</h3>
+                            <p>Stay updated with live schedules and arrival timings.</p>
+                        </div>
+                        <div class="feature">
+                            <img src="./images/easy.png" alt="Easy Payment" width="30px" height="30px">
+                            <h3>Easy Payment</h3>
+                            <p>Pay conveniently using UPI, cards, or net banking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Frequently Asked Questions">
+
+            <div class="app">
+                <h2>Frequently Asked Questions</h2>
+                <div class="ques">
+                    <h6>How can I book a bus ticket on Yathra?</h6>
+                    <p>To book a ticket, enter your travel details (From, To, and Date) in the search section on the
+                        homepage. Select your preferred bus, choose your seat, and complete the booking by making a
+                        payment.
+                    </p>
+                </div>
+                <div class="ques">
+                    <h6>How do I track my bus in real-time?</h6>
+                    <p>After booking, you will receive a tracking link via SMS or email. Click on the link to view your
+                        bus's live location and estimated arrival time.</p>
+                </div>
+                <div class="ques">
+                    <h6>Can I cancel or reschedule my booking?</h6>
+                    <p>Yes, cancellations and rescheduling are allowed, subject to the bus operator’s policies. Check
+                        your
+                        ticket confirmation email for details or log in to your account to manage your booking.</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="Contact">
+
+            <footer class="footer">
+                <div class="footer_content">
+
+                    <div class="footer_section contact">
+                        <h4>Contact Us</h4>
+                        <p>Email: support@yathra.com</p>
+                        <p>Phone: +91 98765 43210</p>
+                        <p>Address: Yathra Pvt Ltd, Kochi, Kerala, India</p>
+                    </div>
+
+
+                    <div class="footer_section social">
+                        <h4>Follow Us</h4>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+
+                    <div class="footer_section links">
+                        <h4>Useful Links</h4>
+                        <a href="#">Terms & Conditions</a><br>
+                        <a href="#">Privacy Policy</a><br>
+                        <a href="#">FAQs</a>
+                    </div>
+                </div>
+
+
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Yathra. All rights reserved.</p>
+                </div>
+            </footer>
+
+
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
